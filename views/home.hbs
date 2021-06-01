@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="/public/main.css">
+</head>
+<body>
+
+{{!-- Navigation Bar --}}
+{{> navbar }}
+
+{{!-- Header --}}
+        <section class="blogs-news-container">
+            <div class="grid-container blogs-main-new">
+                <div class="blogs-news-img-container">
+                    <img src="assets/img/main-news-img.png" alt="">
+                </div>
+                <div class="blogs-news-info-container">
+                    <h2>My Blog!</h2>
+                    <p>Well hello there! I am happy you are here. This little work of art that lays before your eyes is MY first handmade blog. Read, explore, click, and please stay for a while!</p>
+                </div>
+            </div>
+
+
+{{!-- Body --}}
+
+    <main class="blogs-main">
+        <section class="blogs-posts-container">
+            <div class="grid-container">
+                <h3></h3>
+                <article class="post-container">
+                    <img src="assets/img/post-1.png" alt="">
+                    <p>Myself</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ut a fugiat soluta consequatur nisi sunt.</p>
+                    <a href="" class="blogs-button">Leer más</a>
+                </article>
+                <article class="post-container">
+                    <img src="assets/img/post-2.png" alt="">
+                    <p>The News!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ut a fugiat soluta consequatur nisi sunt.</p>
+                    <a href="" class="blogs-button">Leer más</a>
+                </article>
+                <article class="post-container">
+                    <img src="assets/img/post-3.png" alt="">
+                    <p>The Weather!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ut a fugiat soluta consequatur nisi sunt.</p>
+                    <a href="" class="blogs-button">Leer más</a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+{{!-- Footer --}}
+
+{{> footer }}
+
+</body>
+</html>
